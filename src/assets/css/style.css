@@ -1,0 +1,86 @@
+:root {
+    --sidebar-bg-color: #003570;
+    --sidebar-item-hover: #386497;
+    --sidebar-item-active: #002044;
+  }
+  
+    #hideShowSideBar {
+      display: block;
+    }
+    @media only screen and (max-width: 800px){
+        #hideShowSideBar{
+          display: none; 
+        }
+    }
+
+.p-badge.p-badge-warning {
+  color: #ffffff !important;
+}
+
+/*componentes prime vue responsividade mobile*/
+@media (max-width:992px){
+  .p-calendar{
+    margin-bottom:10px;
+  }
+  .p-inputtext{
+    font-size: 14px !important;
+    padding: 6px 31px !important;
+  }
+  .pi{
+    font-size: 13px !important;
+  }
+  .p-column-title{
+    font-size: 14px !important;
+  }
+  .p-datatable .p-datatable-tbody > tr{
+    font-size: 12px !important;
+  }
+  .p-badge{
+    margin-bottom:5px;
+  }
+  .p-button-label {
+    font-size: 12px !important;
+  }
+  .p-card .p-card-content {
+    padding: 0rem 0 !important;
+  }
+
+  .btn--responsive{
+    margin-bottom:10px !important;
+  }
+  .icon--responsive{
+    margin-right: 0px !important;
+  }
+  .label--responsive{
+    display:none;
+  }
+}  
+
+.wrapper{
+  padding: 34px;
+}
+
+@media (max-width:992px){
+  .wrapper{
+    padding: 0px;
+  }
+}
+ 
+.titulo {
+  text-transform: uppercase;
+  color: #767676;
+  padding: 15px;
+  font-weight: 700;
+  font-size:28px
+}
+
+@media (max-width:992px){
+  .titulo {
+    font-size:18px !important;
+    padding-bottom: 0px;
+  }
+}
+
+.p-datatable .p-datatable-header{
+  border: 0px solid #e9ecef !important;
+}
